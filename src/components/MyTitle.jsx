@@ -1,4 +1,6 @@
+import '../style.css'
+
 function MyTitle(){
-    return <h1>Hello React</h1>;
+    return <h1 className="title">Hello React</h1>;
 }
 export default MyTitle;
